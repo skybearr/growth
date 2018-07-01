@@ -1,20 +1,20 @@
 {
-	"groups": [
-		{
-			"keys": "level_json,task_json",
-			"name": "preload"
-		}
-	],
 	"resources": [
 		{
-			"url": "assets/data/level.json",
+			"name": "level_json",
 			"type": "json",
-			"name": "level_json"
+			"url": "assets/data/level.json"
 		},
 		{
-			"url": "assets/data/task.json",
+			"name": "task_json",
 			"type": "json",
-			"name": "task_json"
+			"url": "assets/data/task.json"
+		}
+	],
+	"groups": [
+		{
+			"name": "preload",
+			"keys": "level_json,task_json"
 		}
 	]
 }
