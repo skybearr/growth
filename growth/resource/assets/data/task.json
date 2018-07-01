@@ -1,0 +1,54 @@
+{
+    "main": {
+        "100": {
+            "base": 1,
+            "learn": 1,
+            "life": 1,
+            "health": 1,
+            "reward": "1:100;2:100"
+        },
+        "200": {
+            "need":{},
+            "target":{}
+        }
+    },
+    "daily": {
+        "1": {
+            "base": 100,
+            "learn": 100,
+            "art": 100,
+            "life": 100,
+            "health": 100,
+            "social": 100,
+            "moral": 100,
+            "reward": "1:100;2:100"
+        }
+    },
+    "week": {
+        "1": {
+            "learn": 1000,
+            "life": 1000,
+            "art": 1000,
+            "socail": 1000,
+            "culture": 1000,
+            "moral": 1000,
+            "reward": "1:100;2:100"
+        }
+    },
+    "semester": {
+        "1": {
+            "learn": 25000,
+            "life": 25000,
+            "art": 25000,
+            "socail": 25000,
+            "culture": 25000,
+            "moral": 25000,
+            "reward": "1:100;2:100"
+        }
+    },
+    "hide": {
+        "1": {
+            "reward": "1:100;2:100"
+        }
+    }
+}
